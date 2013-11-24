@@ -52,12 +52,24 @@ class Crawler {
 				$href .= $path;
 			}
 
+//			echo $this->_countImg($dom) . PHP_EOL;
+			$this->_countImg($dom);
 			$host = parse_url($href, PHP_URL_HOST);
 
 			if ($host == $this->host) {
 				$this->_crawlPage($href, $depth - 1);
 			}
 		}
+	}
+
+	private function _countImg($dom) {
+		$images = $dom->getElementsByTagName('img');
+		var_dump($images->length);
+		return $images->length;
+	}
+
+	private function _generateOutput() {
+
 	}
 
 }
