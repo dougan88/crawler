@@ -51,16 +51,12 @@ class Crawler {
 				}
 				$href .= $path;
 			}
-//			echo $href . PHP_EOL;
+
 			$host = parse_url($href, PHP_URL_HOST);
-			echo $host . PHP_EOL;
-			$this->_crawlPage($href, $depth - 1);
 
-
-//
-//			if ($parts['host'] == $this->host) {
-//				$this->_crawlPage($href, $depth - 1);
-//			}
+			if ($host == $this->host) {
+				$this->_crawlPage($href, $depth - 1);
+			}
 		}
 	}
 
