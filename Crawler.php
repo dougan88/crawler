@@ -23,17 +23,19 @@ class Crawler {
 
 	private function _crawlPage($url, $depth = 5)
 	{
-		if (isset($this->visitedLinks[$url]) || $depth === 0) {
+		if (in_array($url, $this->visitedLinks) || $depth === 0) {
 			return;
 		}
 
-		$this->visitedLinks[$url] = true;
+		$this->visitedLinks[] = $url;
 
 		$dom = new DOMDocument();
 		$dom->recover = true;
 		$dom->strictErrorChecking = false;
 		@$dom->loadHTML(file_get_contents($url));
 		$dom->preserveWhiteSpace = false;
+
+		echo $this->_countImg($dom) . PHP_EOL;
 
 		$links = $dom->getElementsByTagName('a');
 		foreach ($links as $link) {
@@ -52,9 +54,7 @@ class Crawler {
 				$href .= $path;
 			}
 
-//			echo $this->_countImg($dom) . PHP_EOL;
-			$this->_countImg($dom);
-			$host = parse_url($href, PHP_URL_HOST);
+			$host = parse_url($href, PHP_URL_SCHEME) . '://' . parse_url($href, PHP_URL_HOST);
 
 			if ($host == $this->host) {
 				$this->_crawlPage($href, $depth - 1);
@@ -64,7 +64,6 @@ class Crawler {
 
 	private function _countImg($dom) {
 		$images = $dom->getElementsByTagName('img');
-		var_dump($images->length);
 		return $images->length;
 	}
 
