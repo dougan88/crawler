@@ -19,15 +19,14 @@ class Crawler {
 
 	public function crawlSite() {
 		$this->_crawlPage($this->host);
+		$this->_generateOutput();
 	}
 
 	private function _crawlPage($url, $depth = 5)
 	{
-		if (in_array($url, $this->visitedLinks) || $depth === 0) {
+		if (array_key_exists($url, $this->visitedLinks) || $depth === 0) {
 			return;
 		}
-
-		$this->visitedLinks[] = $url;
 
 		$dom = new DOMDocument();
 		$dom->recover = true;
@@ -35,7 +34,7 @@ class Crawler {
 		@$dom->loadHTML(file_get_contents($url));
 		$dom->preserveWhiteSpace = false;
 
-		echo $this->_countImg($dom) . PHP_EOL;
+		$this->visitedLinks[$url] = $this->_countImg($dom);
 
 		$links = $dom->getElementsByTagName('a');
 		foreach ($links as $link) {
@@ -68,7 +67,14 @@ class Crawler {
 	}
 
 	private function _generateOutput() {
-
+		$name = '/mnt/shared/test_files/' . 'report_' . date('d.m.Y') . '.html';
+		$links = $this->visitedLinks;
+		arsort($links);
+		ob_start();
+		include('template.php');
+		$content = ob_get_contents();
+		ob_end_clean();
+		file_put_contents($name, $content);
 	}
 
 }
