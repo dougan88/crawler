@@ -11,18 +11,28 @@ class Crawler {
 
 	public $visitedLinks = array();
 
+	private $_filePath;
+
 	public $host;
 
-	public function __construct($host) {
+	public $depth;
+
+	public function setDepth($depth) {
+		$this->depth = $depth;
+	}
+
+	public function __construct($host, $filePath) {
 		$this->host = $host;
+		$this->_filePath = $filePath;
+		$this->depth = 5;
 	}
 
 	public function crawlSite() {
-		$this->_crawlPage($this->host);
+		$this->_crawlPage($this->host, $this->depth);
 		$this->_generateOutput();
 	}
 
-	private function _crawlPage($url, $depth = 5)
+	private function _crawlPage($url, $depth)
 	{
 		if (array_key_exists($url, $this->visitedLinks) || $depth === 0) {
 			return;
@@ -67,7 +77,7 @@ class Crawler {
 	}
 
 	private function _generateOutput() {
-		$name = '/mnt/shared/test_files/' . 'report_' . date('d.m.Y') . '.html';
+		$name = rtrim($this->_filePath, '/') . '/report_' . date('d.m.Y') . '.html';
 		$links = $this->visitedLinks;
 		arsort($links);
 		ob_start();

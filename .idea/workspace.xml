@@ -5,11 +5,11 @@
     <ignored path="crawler.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384859780774" ignored="false" />
-    <file path="/Crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385392021597" ignored="false" />
+    <file path="/Crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385472270719" ignored="false" />
     <file path="$PROJECT_DIR$/../escort/www/protected/components/UserIdentity.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384870638116" ignored="false" />
     <file path="$PROJECT_DIR$/../escort/www/protected/components/PhotoComponent.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384878730270" ignored="false" />
     <file path="/PhotoComponent.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384870741183" ignored="false" />
-    <file path="/index.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385379331750" ignored="false" />
+    <file path="/index.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385472400413" ignored="false" />
     <file path="/template.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385392404921" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="-13.730769">
-              <folding>
-                <marker date="1385379742469" expanded="true" signature="54:103" placeholder="..." />
-                <marker date="1385379742469" expanded="true" signature="169:196" placeholder="..." />
-                <marker date="1385379742469" expanded="true" signature="318:364" placeholder="..." />
-                <marker date="1385379742469" expanded="true" signature="372:429" placeholder="..." />
-              </folding>
+            <state line="31" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.6458333">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,18 +42,16 @@
       <file leaf-file-name="Crawler.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Crawler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="23" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-11.176471">
-              <folding>
-                <element signature="e#6#162#0" expanded="true" />
-              </folding>
+            <state line="30" column="53" selection-start="541" selection-end="541" vertical-scroll-proportion="-11.115385">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="0.3125">
+            <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -84,9 +77,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/crawler.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Crawler.php" />
         <option value="$PROJECT_DIR$/template.php" />
+        <option value="$PROJECT_DIR$/Crawler.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -123,7 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,6 +136,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +190,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -205,7 +198,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25581396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25887394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -284,33 +277,49 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385379742469" expanded="true" signature="54:103" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="169:196" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="318:364" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="372:429" placeholder="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="23" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="23" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#162#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385379742469" expanded="true" signature="54:103" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="169:196" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="318:364" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="372:429" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -328,30 +337,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="-13.730769">
-          <folding>
-            <marker date="1385379742469" expanded="true" signature="54:103" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="169:196" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="318:364" placeholder="..." />
-            <marker date="1385379742469" expanded="true" signature="372:429" placeholder="..." />
-          </folding>
+        <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.807693">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="23" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-11.176471">
-          <folding>
-            <element signature="e#6#162#0" expanded="true" />
-          </folding>
+        <state line="30" column="53" selection-start="541" selection-end="541" vertical-scroll-proportion="-11.115385">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="0.3125">
+        <state line="31" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.6458333">
           <folding />
         </state>
       </provider>
