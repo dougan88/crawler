@@ -5,12 +5,39 @@
     <ignored path="crawler.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384859780774" ignored="false" />
-    <file path="/Crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385472270719" ignored="false" />
+    <file path="/Crawler.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385645259604" ignored="false" />
     <file path="$PROJECT_DIR$/../escort/www/protected/components/UserIdentity.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384870638116" ignored="false" />
     <file path="$PROJECT_DIR$/../escort/www/protected/components/PhotoComponent.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384878730270" ignored="false" />
     <file path="/PhotoComponent.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1384870741183" ignored="false" />
-    <file path="/index.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385472400413" ignored="false" />
+    <file path="/index.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385652171508" ignored="false" />
     <file path="/template.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385392404921" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/components/widgets/views/cart.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/components/PurchaseHelper.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385567387127" ignored="false" />
+    <file path="/a.dummy" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572093512" ignored="false" />
+    <file path="/PromoAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385566828189" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/purchase/controllers/site/PromoAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385567387127" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/forms/PromoCodeForm.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385571737016" ignored="false" />
+    <file path="/PromoCodeForm.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385571249955" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/messages/no/general.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/purchase/controllers/site/PurchaseAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/messages/da/general.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/components/WebUser.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/account/controllers/site/LoginAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/config/global/main.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/account/controllers/site/AccountAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/messages/sv/general.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/purchase/controllers/site/IndexAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/forms/PurchaseAccountForm.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/components/ViaplayAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/messages/fi/general.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/modules/purchase/controllers/site/RegisterAction.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/components/widgets/CartWidget.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/extensions/theplatform-client-yii-extension/ThePlatformResponse.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385571847782" ignored="false" />
+    <file path="/main.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385571937458" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/config/se/main.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385572077191" ignored="false" />
+    <file path="/README.md" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385644466346" ignored="false" />
+    <file path="/autoloader.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385650032689" ignored="false" />
+    <file path="$PROJECT_DIR$/../customer-management/www/protected/vendors/aws/aws-autoloader.php" changelist="2fbf5138-cbd9-4a70-bedd-89483fbd6502" time="1385649947945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +57,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.6458333">
+            <state line="26" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crawler.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Crawler.php">
+      <file leaf-file-name="Crawler.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/Crawler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="53" selection-start="541" selection-end="541" vertical-scroll-proportion="-11.115385">
-              <folding />
+            <state line="115" column="13" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.69911504">
+              <folding>
+                <element signature="e#6#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template.php">
+        <entry file="file://$PROJECT_DIR$/project/template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.807693">
               <folding />
@@ -60,7 +89,16 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoloader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoloader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="3" selection-start="84" selection-end="84" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -79,7 +117,10 @@
         <option value="$PROJECT_DIR$/crawler.php" />
         <option value="$PROJECT_DIR$/template.php" />
         <option value="$PROJECT_DIR$/Crawler.php" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/autoloader.php" />
+        <option value="$PROJECT_DIR$/project/Crawler.php" />
       </list>
     </option>
   </component>
@@ -134,6 +175,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -165,6 +220,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\sites\crawler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\sites\crawler\project" />
     </key>
   </component>
   <component name="RunManager">
@@ -281,14 +339,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler.php">
+    <entry file="file://$PROJECT_DIR$/project/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="23" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#6#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
+    <entry file="file://$PROJECT_DIR$/project/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
           <folding />
@@ -309,10 +369,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler.php">
+    <entry file="file://$PROJECT_DIR$/project/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="23" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#6#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -332,29 +394,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
+    <entry file="file://$PROJECT_DIR$/project/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="7" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="53" selection-start="541" selection-end="541" vertical-scroll-proportion="-11.115385">
+        <state line="26" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="-17.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.6458333">
+        <state line="7" column="3" selection-start="84" selection-end="84" vertical-scroll-proportion="-4.576923">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="13" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.69911504">
+          <folding>
+            <element signature="e#6#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,44 +1,90 @@
 <?php
 /**
- * Created by JetBrains PhpStorm.
- * User: eyurkov
- * Date: 19.11.13
- * Time: 12:28
- * To change this template use File | Settings | File Templates.
+ * Basic Crawler class
+ * <dougan888@gmail.com>
  */
+namespace project;
 
 class Crawler {
 
+	/**
+	 * The list of visited links.
+	 *
+	 * @var array
+	 */
 	public $visitedLinks = array();
 
+	/**
+	 * Path to save generated output.
+	 *
+	 * @var string
+	 */
 	private $_filePath;
 
+	/**
+	 * Host of the provided site.
+	 *
+	 * @var string
+	 */
 	public $host;
 
+	/**
+	 * Depth of crawling.
+	 *
+	 * @var int
+	 */
 	public $depth;
 
+	/**
+	 * Sets depth of crawling.
+	 *
+	 * @param  int $depth
+	 *
+	 * @return void
+	 */
 	public function setDepth($depth) {
 		$this->depth = $depth;
 	}
 
+	/**
+	 * Sets host, file path and depth, provided by user's input.
+	 *
+	 * @param  string $host
+	 * @param  string $filePath
+	 *
+	 * @return void
+	 */
 	public function __construct($host, $filePath) {
 		$this->host = $host;
 		$this->_filePath = $filePath;
 		$this->depth = 5;
 	}
 
+	/**
+	 * Crawls site and generates input.
+	 *
+	 * @return void
+	 */
 	public function crawlSite() {
 		$this->_crawlPage($this->host, $this->depth);
 		$this->_generateOutput();
 	}
 
+	/**
+	 * Recursively crawls the site.
+	 *
+	 * @param  string $url
+	 * @param  int $depth
+	 *
+	 * @return void
+	 */
 	private function _crawlPage($url, $depth)
 	{
 		if (array_key_exists($url, $this->visitedLinks) || $depth === 0) {
 			return;
 		}
 
-		$dom = new DOMDocument();
+		$dom = new \DOMDocument();
 		$dom->recover = true;
 		$dom->strictErrorChecking = false;
 		@$dom->loadHTML(file_get_contents($url));
@@ -71,13 +117,25 @@ class Crawler {
 		}
 	}
 
+	/**
+	 * Counts the number of img on provided DOM object.
+	 *
+	 * @param  DomDocument $dom
+	 *
+	 * @return int
+	 */
 	private function _countImg($dom) {
 		$images = $dom->getElementsByTagName('img');
 		return $images->length;
 	}
 
+	/**
+	 * Generates output files.
+	 *
+	 * @return void
+	 */
 	private function _generateOutput() {
-		$name = rtrim($this->_filePath, '/') . '/report_' . date('d.m.Y') . '.html';
+		$name = rtrim($this->_filePath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . 'report_' . date('d.m.Y') . '.html';
 		$links = $this->visitedLinks;
 		arsort($links);
 		ob_start();
